@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    justify-content: flex-end;
+    height: 80px;
+    align-items: center;
+    margin-right: 5px;
+}
+h1{
+    padding: 20px;
+    font-size: 65px;
+    height: 30%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+    margin-left: 5px;
+    
+}
+.col2 Ul li{
+    list-style: none;
+    margin-right: 10px;
+    border-bottom: 2px solid black;
+}
+.img{
+    background-image: url('./pexels-serra-nur-cevikdal-2147703100-30772466.jpg');
+    height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
