@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,html{
+        width: 100%;
+        height: 100%;
+}
+.main{
+    width: 100%;
+    height: 275%;
+    background-color: #f6f5f1;
+}
+.nav-bar{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid gainsboro;
+    
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.logo h4{
+    
+    margin-top: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+    
+}
+.logo img{
+    margin-top: 3px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    
+}
+.menu{
+    display: flex;
+    gap: 15px;
+    margin-top: 28px;
+    margin-left: 300px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #050C0B;
+    
+}
+.menu-hover:hover{
+    border-bottom: 2px dotted red;
+    margin-bottom: 15px;
+}
+.nav-bar button{
+    margin-left: 450px;
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: #050C0B;
+    color: white;
+    border-radius: 5px;
+}
+.content{
+    width: 100%;
+    height: 270px;
+    text-align: center;
+    margin-top: 20px;
+    color: #050C0B;
+}   
+    
+.content-row h1{
+    font-size: 55px;
+    font-weight: 900;
+    font-family:  'Nunito' , sans-serif;
+    margin-bottom: 20px;
+    color: #050C0B;
+}
+.content-row p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #050C0B;
+}
+.content-row button{
+    width: 120px;
+    height: 40px;
+    background-color: #050C0B;
+    color: white;
+    border-radius: 5px;
+}
+.image-portion img{
+    width: 75%;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 180px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.main-grid{
+    width: 75%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 180px;
+    padding: 10px;
+    height: 200px;
+    margin-right: 50px;
+}
+.grid h4{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-style: bold;
+}
+hr{
+    width: 75%;
+    margin-left: 180px;
+    margin-right: 60px;
+}
+.gridbox{
+    width: 75%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 180px;
+    padding: 10px;
+    height: 200px;
+    margin-right: 50px;
+    column-gap: 20px;
+}
+.col1 p{
+    font-size: 20px;
+    gap: 20px;
+}
+.col2 img{
+    border-radius: 10px;
+} 
+.footer img{
+    width: 76%;
+    height: 265px;
+    object-fit: fill;
+    margin-left: 180px;
+    margin-top: 90px;
+    border-radius: 10px;
+
+}
+
+.footer-text {
+    margin-left: 200px;
+    margin-top: 25px;
+    font-size: 11px;
+    
+}
+.footer-text img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+.footer-icon{
+    margin-left: 1140px;
+}
