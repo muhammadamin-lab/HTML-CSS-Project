@@ -1,17 +1,21 @@
-*{
+* {
     margin: 0px;
 }
-body,html{
+
+body,
+html {
     width: 100%;
     height: 100%;
     background-color: whitesmoke;
 
 }
-.main{
+
+.main {
     width: 100%;
     height: 100%;
 }
-.menu ul{
+
+.menu ul {
     display: flex;
     list-style: none;
     gap: 15px;
@@ -20,27 +24,62 @@ body,html{
     align-items: center;
     margin-right: 5px;
 }
-h1{
+
+h1 {
     padding: 20px;
-    font-size: 65px;
+    font-size: clamp(1rem, -1.5057rem + 11.1364vw, 4.0625rem);
     height: 30%;
 }
-.row{
+
+.row {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 180px;
     margin-left: 5px;
-    
+
 }
-.col2 Ul li{
+.row p{
+   font-size: clamp(0.9375rem, 0.5141rem + 2.4194vw, 1.875rem);
+}
+
+.col2 Ul li {
     list-style: none;
     margin-right: 10px;
     border-bottom: 2px solid black;
 }
-.img{
+
+.img {
     background-image: url('./pexels-serra-nur-cevikdal-2147703100-30772466.jpg');
     height: 500px;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+@media (min-width: 280px) and (max-width: 900px) {
+    .menu ul {
+        flex-direction: column;
+        justify-content: unset;
+        align-items: unset;
+        height: unset;
+    }
+
+    h1 {
+        flex-direction: column;
+        justify-content: unset;
+        align-items: unset;
+        height: unset;
+
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .img {
+        flex-direction: column;
+        justify-content: center;
+        width: 500px;
+        height: 400px;
+    }
 }
