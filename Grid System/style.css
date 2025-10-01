@@ -1,0 +1,145 @@
+* {
+      margin: 0px;
+      padding: 0%;
+    }
+
+    body {
+      width: 100%;
+      height: 50%;
+      background-color: #F5F5F5;
+    }
+
+    .container {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      height: 900px;
+      width: 100%;
+      
+      padding: 10px;
+    }
+
+    .main1 {
+      display: grid;
+      grid-template-rows: repeat(4, 200px);
+      grid-template-columns: repeat(1, 300px);
+      gap: 15px 70px;
+
+    }
+
+    .create_post {
+      background-color: #FAEEE2;
+      font-size: 30px;
+      justify-content: center;
+      grid-row: span 2;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .ai_content {
+      background-color: #FFCC69;
+      font-size: 30px;
+      justify-content: center;
+      grid-row: span 2;
+      text-align: center;
+    }
+    .ai_content img{
+      padding-top: 30px;
+
+    }
+    .main2 {
+      display: grid;
+      grid-template-columns: repeat(3, 200px);
+      grid-template-rows: repeat(3, 200px);
+      gap: 15px 10px;
+
+    }
+
+    .Social_media {
+      background-color: #7651DC;
+      font-size: 30px;
+      justify-content: center;
+      text-align: center;
+      padding: 10px;
+      grid-column: span 2;
+      grid-row: span 2;
+      color: white;
+      padding-top: 40px;
+      height: 300px;
+    }
+    .Social_media p{
+      font-size: 30px;
+    }
+    .Schedule_media {
+      background-color: #DCD1FC;
+      font-size: 20px;
+      justify-content: center;
+      padding-top: 50px;
+      grid-row: span 3;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 0%;
+      padding-right: 0%;
+    }
+    .Schedule_media p{
+      font-size: 20px;
+      padding-top: 20px;
+    }
+    .Schedule_media img{
+      padding-top: 30px;
+    }
+    .multi_accounts {
+      background-color: white;
+      text-align: center;
+      font-size: 15px;
+    }
+    .multi_accounts img{
+      padding-bottom: 10px;
+
+    }
+    .sch_post {
+      background-color: #FFCC69;
+      text-align: center;
+      
+      
+    }
+    .aud_grow{
+      background-color: white;
+      height: 200px;
+      text-align: center;
+    }
+    .aud_grow h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+    }
+    .aud_grow p{
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 20px;
+    }
+    .aud_grow img{
+        padding-top: 20px;
+    }
+    .grow_followers {
+      background-color: #7651DC;
+      display: flex;
+      grid-column: span 2;
+      height: 200px;
+      text-align: center;
+    }
+    .grow_img{
+        padding-top: 30px;   
+        padding-left: 0px;   
+    }
+    .grow_text{
+        padding-top: 30px;
+        justify-content: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    @media (min-width: 360px) and (max-width: 800px) {
+        .main1{
+            flex-direction: column;
+        }
+        .main2{
+            flex-direction: column;
+        }
+    }
